@@ -1,0 +1,112 @@
+body{
+    height: 100%;
+    font-size: large;
+    background-color: rgb(245, 240, 255);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+ul.nav{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    background-color: gainsboro;
+    width: 100%;overflow-x: auto;
+    scrollbar-width: thin;
+}
+
+ul::-webkit-scrollbar{
+  width: thin;
+}
+
+nav li a,.select{
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 170px;
+}
+
+li a:hover {
+    color: gainsboro;
+    background-color: rgb(121, 119, 119);
+}
+
+.select{
+    color: gainsboro;
+    background-color: rgb(154, 152, 152);
+}
+
+form{
+    display: inline-flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+}
+
+input[type="search"]{
+    height: 30px;
+    width: 200px;
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+button[type="submit"]{
+    height: 22px;
+    background-color: gainsboro;
+    color: black;
+    border-radius: 6px;
+}
+  
+button:hover{
+    color: white;
+    background-color: rgb(154, 152, 152);
+    cursor: pointer;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mural{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 20%;  
+    border: 1px solid black;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
